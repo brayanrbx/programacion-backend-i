@@ -30,10 +30,10 @@ routeProducts.get('/', async (req, res, next) => {
     }
 });
 
-routeProducts.get('/:id', async (req, res, next) => {
+routeProducts.get('/:pid', async (req, res, next) => {
     try {
-        const { id } = req.params;
-        const product = await productsController.getProductById(id);
+        const { pid } = req.params;
+        const product = await productsController.getProductById(pid);
         res.status(200).json({
             msg: product
         })
@@ -59,11 +59,11 @@ routeProducts.post('/', async (req, res, next) => {
     }
 });
 
-routeProducts.put('/:id', async (req, res, next) => {
+routeProducts.put('/:pid', async (req, res, next) => {
     try {
-        const { id } = req.params;
+        const { pid } = req.params;
         const { body } = req;
-        const product = await productsController.updateProduct(id, body)
+        const product = await productsController.updateProduct(pid, body)
         res.status(201).json({
             msg: "Product updated successfully",
             product
@@ -75,11 +75,10 @@ routeProducts.put('/:id', async (req, res, next) => {
     }
 });
 
-routeProducts.delete('/:id', async (req, res, next) => {
+routeProducts.delete('/:pid', async (req, res, next) => {
     try {
-        const { id } = req.params;
-        const { body } = req;
-        await productsController.deleteProduct(id, body)
+        const { pid } = req.params;
+        await productsController.deleteProduct(pid)
         res.status(200).json({
             msg: 'Product delete successful'
         });

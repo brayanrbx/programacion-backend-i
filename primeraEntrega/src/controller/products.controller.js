@@ -26,7 +26,6 @@ class ProductManager {
 
 
     async saveProduct(products) {
-        await this.validateExistsFile();
         const data = JSON.stringify(products, null, '\t');
         await fs.promises.writeFile(this.route, data);
     }
@@ -41,7 +40,6 @@ class ProductManager {
         const arrayProduct = await this.getProducts();
         const index = this.existsProduct(id, arrayProduct);
         return arrayProduct[index];
-
     }
 
     async addProduct(product) {
