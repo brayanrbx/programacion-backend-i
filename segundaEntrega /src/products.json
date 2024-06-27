@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"title": "Producto 1",
+		"description": "Este es un producto de prueba 1",
+		"code": "abc001",
+		"price": 100,
+		"status": true,
+		"stock": 10,
+		"thumbnail": [
+			"ruta1.jpg",
+			"ruta2.jpg",
+			"ruta3.jpg"
+		]
+	},
+	{
+		"id": 2,
+		"title": "Producto 2",
+		"description": "Este es un producto de prueba 2",
+		"code": "def002",
+		"price": 120,
+		"status": true,
+		"stock": 15,
+		"thumbnail": [
+			"ruta4.jpg",
+			"ruta5.jpg",
+			"ruta6.jpg"
+		]
+	},
+	{
+		"id": 3,
+		"title": "Producto 3",
+		"description": "Este es un producto de prueba 3",
+		"code": "ghi003",
+		"price": 80,
+		"status": true,
+		"stock": 20,
+		"thumbnail": [
+			"ruta7.jpg",
+			"ruta8.jpg",
+			"ruta9.jpg"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Producto 4",
+		"description": "Este es un producto de prueba 4",
+		"code": "jkl004",
+		"price": 150,
+		"status": true,
+		"stock": 8,
+		"thumbnail": [
+			"ruta10.jpg",
+			"ruta11.jpg",
+			"ruta12.jpg"
+		]
+	},
+	{
+		"id": 5,
+		"title": "Producto 5",
+		"description": "Este es un producto de prueba 5",
+		"code": "mno005",
+		"price": 90,
+		"status": true,
+		"stock": 18,
+		"thumbnail": [
+			"ruta13.jpg",
+			"ruta14.jpg",
+			"ruta15.jpg"
+		]
+	},
+	{
+		"id": 6,
+		"title": "Producto 6",
+		"description": "Este es un producto de prueba 6",
+		"code": "pqr006",
+		"price": 200,
+		"status": true,
+		"stock": 12,
+		"thumbnail": [
+			"ruta16.jpg",
+			"ruta17.jpg",
+			"ruta18.jpg"
+		]
+	},
+	{
+		"id": 7,
+		"title": "Producto 7",
+		"description": "Este es un producto de prueba 7",
+		"code": "stu007",
+		"price": 110,
+		"status": true,
+		"stock": 25,
+		"thumbnail": [
+			"ruta19.jpg",
+			"ruta20.jpg",
+			"ruta21.jpg"
+		]
+	},
+	{
+		"id": 8,
+		"title": "Producto 8",
+		"description": "Este es un producto de prueba 8",
+		"code": "vwx008",
+		"price": 130,
+		"status": true,
+		"stock": 14,
+		"thumbnail": [
+			"ruta22.jpg",
+			"ruta23.jpg",
+			"ruta24.jpg"
+		]
+	},
+	{
+		"id": 9,
+		"title": "Producto 9",
+		"description": "Este es un producto de prueba 9",
+		"code": "yz009",
+		"price": 95,
+		"status": true,
+		"stock": 30,
+		"thumbnail": [
+			"ruta25.jpg",
+			"ruta26.jpg",
+			"ruta27.jpg"
+		]
+	},
+	{
+		"id": 10,
+		"title": "Producto 10",
+		"description": "Este es un producto de prueba 10",
+		"code": "aaa010",
+		"price": 180,
+		"status": true,
+		"stock": 22,
+		"thumbnail": [
+			"ruta28.jpg",
+			"ruta29.jpg",
+			"ruta30.jpg"
+		]
+	},
+	{
+		"id": 11,
+		"title": "Producto 11",
+		"description": "Este es un producto de prueba 11",
+		"code": "aaa010",
+		"price": 180,
+		"status": true,
+		"stock": 22,
+		"thumbnail": []
+	}
+]
