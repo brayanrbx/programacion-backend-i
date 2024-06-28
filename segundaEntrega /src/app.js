@@ -14,22 +14,22 @@ const productManager = new ProductManager("./src/products.json");
 
 io.on('connection', async(socket) => {
     console.log('Client connected');
-
+    const products = await productManager.getProducts();
      //Enviamos el array de productos:
-    socket.emit("productos", await productManager.getProducts());
+    socket.emit("products", products);
 
      //Recibimos el evento "eliminarProducto" desde el cliente:
-    socket.on("eliminarProducto", async (id) => {
+    socket.on("deleteProduct", async (id) => {
         await productManager.deleteProduct(id);
 
          //Le voy a enviar la lista actualizada al cliente:
-        io.sockets.emit("productos", await productManager.getProducts());
+        io.sockets.emit("products", products);
     })
 
      //Agregamos productos por medio de un formulario:
-    socket.on("agregarProducto", async (producto) => {
-        await productManager.addProduct(producto);
+    socket.on("addProduct", async (product) => {
+        await productManager.addProduct(product);
          //Le voy a enviar la lista actualizada al cliente:
-        io.sockets.emit("productos", await productManager.getProducts());
+        io.sockets.emit("products", products);
     })
 })

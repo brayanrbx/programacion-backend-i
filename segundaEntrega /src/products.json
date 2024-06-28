@@ -113,40 +113,12 @@
 	},
 	{
 		"id": 9,
-		"title": "Producto 9",
-		"description": "Este es un producto de prueba 9",
-		"code": "yz009",
-		"price": 95,
+		"title": "title",
+		"description": "description",
+		"code": "code",
+		"price": "price",
 		"status": true,
-		"stock": 30,
-		"thumbnail": [
-			"ruta25.jpg",
-			"ruta26.jpg",
-			"ruta27.jpg"
-		]
-	},
-	{
-		"id": 10,
-		"title": "Producto 10",
-		"description": "Este es un producto de prueba 10",
-		"code": "aaa010",
-		"price": 180,
-		"status": true,
-		"stock": 22,
-		"thumbnail": [
-			"ruta28.jpg",
-			"ruta29.jpg",
-			"ruta30.jpg"
-		]
-	},
-	{
-		"id": 11,
-		"title": "Producto 11",
-		"description": "Este es un producto de prueba 11",
-		"code": "aaa010",
-		"price": 180,
-		"status": true,
-		"stock": 22,
-		"thumbnail": []
+		"stock": "10",
+		"thumbnail": "sin"
 	}
 ]

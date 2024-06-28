@@ -14,8 +14,8 @@ app.set('view engine', 'handlebars');
 app.set('views', './src/views');
 
 
-app.use('/api', routeMain);
 app.use('/', views);
+app.use('/api', routeMain);
 
 app.use((err, req, res, next) => {
     const status = err.status || 500;
