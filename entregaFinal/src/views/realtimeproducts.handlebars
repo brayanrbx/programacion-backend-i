@@ -1,0 +1,41 @@
+<h1 class="text-primary text-center">REALTIME PRODUCTS</h1>
+
+<div id="productsContainer" class="container m-4"></div>
+
+<form class="container m-4">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-primary text-center">Form to add Product</h2>
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="title" placeholder="Titulo" aria-label="title">
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="description" placeholder="Descripcion" aria-label="description">
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="code" placeholder="Codigo" aria-label="code">
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="price" placeholder="Precio" aria-label="price">
+        </div>
+        <div class="col-3 mb-3">
+            <select id="status">
+                <option value="true"> Activo </option>
+                <option value="false"> Inactivo </option>
+            </select>
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="stock" placeholder="Stock" aria-label="stock">
+        </div>
+        <div class="col-3 mb-3">
+            <input type="text" class="form-control" id="thumbnail" placeholder="thumbnail" aria-label="thumbnail">
+        </div>
+        <div class="row">
+            <button type="button" id="btnSend" class="btn btn-primary col-3 mx-auto">Send</button>
+        </div>
+    </div>
+</form>
+
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="js/main.js"></script>
